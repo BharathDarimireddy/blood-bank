@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="/css/sign.css">
+</head>
+<body>
+    <div class="form_box">
+        <h2>Login</h2>
+        <form action="login.php" method="post"> <!-- Replace 'login_process.php' with the actual action file. -->
+            <div class="form-group">
+                <label for="user">Username:</label>
+                <input type="text" id="user" name="user" required>
+            </div>
+            <div class="form-group">
+                <label for="pass">Password:</label>
+                <input type="pass" id="pass" name="pass" required>
+            </div>
+            <div class="form-group">
+                <label for="user-type">Login as:</label>
+                <select id="user-type" name="user-type" required>
+                    <option value="user">User</option>
+                    <option value="organization">Organization</option>
+                </select>
+            </div>
+            <button type="submit">Login</button>
+            <a href="sign.html"><button type="submit">SignUp</button></a>
+        </form>
+    </div>
+</body>
+</html>

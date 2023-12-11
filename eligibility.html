@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <style>
+       *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+:root{
+    --color-1: rgb(215, 5, 5);
+    --color-button: rgb(255, 249, 131);
+    --color-bg: rgb(255, 255, 255);
+    --container-width-Ig:80%;
+    --container-width-md:90%;
+    --container-width-sm:94%;
+    --transition: all 400ms ease;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    color: rgb(255, 255, 255);
+    background: rgb(1, 2, 64);
+}
+h1,h2,h3,h4,h5{
+    line-height: 1.2;
+}
+h1{
+    font-size: 2.4rem;
+    color: var(--color-white);
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.6rem;
+}
+h4{
+    font-size: 1.3rem;
+}
+h5{
+    font-size: 1.0rem;
+    color: var(--color-white);
+}
+a{
+    color: var(--color-black);
+}
+p{
+    color: var(--color-white);
+}
+.cont{
+    width: var(--container-width-Ig);
+    margin: 0 auto;
+}
+nav{
+    background: var(--color-1);
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+}
+/* Style for the dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.dropdown-content a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.nav_container{
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+    
+}
+.nav_menu a{
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+header{
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.head_container{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+    margin-top: 8rem;
+    
+}
+footer i{
+    color: #ffffff;
+  }
+  .footer__2 a{
+    color: #ffffff;
+  }
+  .footer__3 a{
+    color: #ffffff;
+  }
+  footer{
+    background: rgba(88, 88, 88, 0.3);
+    padding-top: 5rem;
+  }
+  .footer__container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5rem;
+  }
+  .footer__container > div h4{
+    margin-bottom: 1.2rem;
+  }
+  .footer__1 p{
+    margin: 0 0 2rem;
+  }
+  footer ul li{
+    margin-bottom: 0.7rem;
+  }
+footer ul li a:hover{
+    text-decoration: underline;
+}
+.footer__socials{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+.footer__copyright{
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.2rem 0;
+    border-top: 1px solid rgb(255, 0, 0);
+}
+footer h4{
+    color: #ffffff;
+}
+.content {
+    margin: 10rem auto;
+    max-width: 800px; /* Adjust the max-width to your preference */
+    padding: 20px;
+    background-color: rgb(1, 2, 64); /* Adjust the background color and opacity as desired */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px ; /* Add a subtle box shadow for a card-like effect */
+}
+
+.content h2 {
+    font-size: 24px; /* Adjust the font size as desired */
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 16px; /* Adjust the font size as desired */
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.content ul {
+    text-align: left; /* Adjust the alignment as desired */
+    margin: 10px 0;
+}
+
+.content ul li {
+    font-size: 14px; /* Adjust the font size as desired */
+    margin-bottom: 10px;
+}
+
+/* You can add more styles as needed for specific elements within the .content class. */
+
+
+    </style>
+
+</head>
+<body>
+    <nav>
+        <div class="cont nav_container">
+            <a href="#"><h4>Vital Bonds</h4></a>
+            <li><a href="home.html">Home</a></li>
+            <ul class="nav_menu">
+                <li class="dropdown">
+                    <a href="#">Donate Now &#9660;</a>
+                    <div class="dropdown-content">
+                        <a href="#">Donate Blood</a>
+                        <a href="#">Donate Organ</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Request Now &#9660;</a>
+                    <div class="dropdown-content">
+                        <a href="login.html">Request Blood</a>
+                        <a href="login.html">Request Organ</a>
+                    </div>
+                </li>
+                
+                 <li><a href="login.php">Login</a></li>
+                <li><a href="register.php">Register</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    
+    <div class="content">
+        <h2>Eligibility Rules for Blood Donation</h2>
+        <p>Before you proceed with your blood donation, please make sure you meet the following eligibility rules:</p>
+
+        <ul>
+            <li>1.Age: Donors are usually required to be at least 16 to 18 years old, depending on the location. Some places may have an upper age limit, often around 65 to 70, but this can vary.</li>
+            <li>2.Weight: Donors typically need to weigh a minimum amount, usually around 110 to 120 pounds (50 to 55 kilograms). This is to ensure that the donor can safely give blood without risking their health.</li>
+            <li>3.Health: Donors must be in good health and feeling well on the day of donation. They should not have any acute or chronic medical conditions that might disqualify them.</li>
+            <li>4.Travel and residence: Recent travel to certain regions, particularly those with a risk of infectious diseases like malaria, may temporarily disqualify a person from donating. Similarly, living in or visiting areas with a high risk of diseases like Creutzfeldt-Jakob disease (CJD) can be a disqualifying factor.</li>
+            <li>5.Medications: Some medications can affect a person's eligibility to donate blood. Certain medications may require a waiting period before donation is allowed.</li>
+            <li>6.Medical history: Donors are asked about their medical history, including questions about diseases like HIV, hepatitis, and other infectious diseases. A history of these diseases may disqualify a person from donating.</li>
+            <li>7.High-risk behaviors: Engaging in high-risk behaviors, such as intravenous drug use or unprotected sex, may disqualify a person from donating blood.</li>
+            <li>8.Recent surgery or vaccinations: Recent surgery or vaccinations may result in temporary deferral from blood donation.</li>
+            <li>9.Pregnancy and breastfeeding: Pregnant and breastfeeding individuals are generally not eligible to donate blood.</li>
+            <li>10.Travel restrictions: Recent travel to countries with outbreaks of certain diseases, like Zika virus, may lead to temporary deferral.</li>
+            <li>11.Tattoo and piercing: Some locations may have specific rules regarding recent tattoos and piercings, which could lead to temporary deferral.</li>
+            <li>12.Iron levels: Hemoglobin and iron levels are often checked before donation, and donors need to meet certain minimum levels.</li>
+            <li>It's important to note that these rules may vary by organization, and local guidelines may be more specific. Before donating blood, it's a good idea to check with the local blood bank or organization to confirm eligibility requirements. Always provide accurate and honest information about your health and travel history when attempting to donate blood, as this information is crucial for ensuring the safety of both donors and recipients.</li>
+        </ul>
+
+        <p>Please ensure that you meet these eligibility criteria before proceeding with your donation.</p>
+    </div>
+    <div class="content">
+        <h2>Eligibility Rules for Organ Donation</h2>
+        <p>Before you proceed with your organ donation, please make sure you meet the following eligibility rules:</p>
+
+        <ul>
+            <li>1.Age: In general, organ donors must be within a certain age range. Typically, donors should be between the ages of 18 and 60. However, this can vary based on the organ and the recipient's condition.</li>
+            <li>2.Medical History: Donors should have a good medical history with no chronic illnesses or conditions that could impact the suitability of the organ for transplantation. A detailed medical evaluation is conducted to assess the donor's health.</li>
+            <li>3.Blood Type: The donor's blood type should be compatible with the recipient's blood type. Incompatibility can lead to organ rejection.</li>
+            <li>4.Tissue Compatibility: For some organs, especially bone marrow and stem cell donations, tissue compatibility, typically determined by Human Leukocyte Antigen (HLA) matching, is crucial.</li>
+            <li>5.Infectious Disease Screening: Donors are screened for infectious diseases, such as HIV, hepatitis, syphilis, and others. A positive test result may disqualify the donor.</li>
+            <li>6.Cancer History: A history of cancer may disqualify a person from donating an organ, although this varies based on the type of cancer and the time since treatment.</li>
+            <li>7.Organ-Specific Criteria:
+
+               <ul> 
+               <li>a)Kidney Donation: Kidney donors should typically have two healthy kidneys, and the function of both kidneys is thoroughly evaluated.</li>
+                <li>b)Liver Donation: Liver donors should have a compatible liver size, good liver function, and a healthy liver structure.</li>
+                <li>c)Heart Donation: Heart donors should have a healthy heart and a history of good cardiovascular health.</li>
+                <li>d)Lung Donation: Lung donors should have healthy lungs and no history of lung diseases.</li></ul></li>
+            <li>8.Psychosocial Evaluation: Potential donors are assessed for their psychological and emotional suitability to ensure they are making an informed and voluntary decision.</li>
+            <li>9.Living vs. Deceased Donors: The criteria for living donors (such as for kidney or liver) may differ from those for deceased donors (such as for heart or lungs).</li>
+            <li>10.Consent: The donor must provide informed and voluntary consent for the organ donation.</li>
+            <li>It's important to note that the specific criteria and evaluation processes may vary by region and transplant center. Anyone interested in becoming an organ donor should contact their local organ procurement organization or transplant center for detailed information and to discuss their eligibility. Additionally, potential donors are encouraged to discuss their intentions with their healthcare providers and family members to ensure a thorough understanding of the process and its implications.</li>
+           
+        </ul>
+
+        <p>Please ensure that you meet these eligibility criteria before proceeding with your donation.</p>
+    </div>
+    <footer class="footer">
+        <div class="container footer__container">
+                <div class="footer__1">
+                    <a href="index.html" class="footer__logo"><h4>SkillQuake</h4></a>
+                    <p>Discover Your Passion, Embrace the Journey Beyond the Books</p>
+                </div>
+            
+            <div class="footer__2">
+                <h4>For Links</h4>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </div>
+    
+            <div class="footer__3">
+                <h4>Privacy</h4>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Refund Policy</a></li>
+            </div>
+    
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+91 9237423467</p>
+                    <p>dshagdh@gmail.com</p>
+                </div>
+            
+    
+            <ul class="footer__socials">
+    
+                <li>
+                    <a href="#"><i class="uil uil-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="uil uil-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="uil uil-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="uil uil-linkedin"></i></a>
+                </li>
+            </ul>
+        </div>
+        
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; SkillQuake</small>
+        </div>
+    </footer>
+</body>
+</html>
+

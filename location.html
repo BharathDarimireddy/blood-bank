@@ -1,0 +1,206 @@
+<head >
+     
+     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style1.css"> <!-- Link to your stylesheet -->
+    <title>Donation Form</title>
+</head>
+<body>
+    
+  
+    
+    
+<style>
+.abc{
+    background-color:#ff4749;
+    }
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  border: 1px solid #ddd; /* Add a grey border */
+  font-size: 18px; /* Increase font-size */
+}
+
+#myTable th, #myTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
+}
+</style>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Enter Pincode..">
+<div class="abc">
+<table  id="myTable">
+  <tr class="header">
+    <th style="width:10%;">Pincode</th>
+    <th style="width:30%;">Bloodcenter</th>
+    <th style="width:10%;">Category</th>
+    <th style="width:10%;">Availability</th>
+    <th style="width:10%;">Last_updated</th>
+    <th style="width:10%;">Type</th>
+  </tr>
+  <tr>
+    <td>531162</td>
+    <td>Anil Neerukunda Hospital Blood Centre
+SangiValasa, Bheemunipatnam (M), Visakhapatnam, Visakhapatnam, Andhra Pradesh
+Phone: 8008901273 ,Fax: -, Email: anhbb2017@gmail.com</td>
+    <td>private</td>
+    <td>Available:<br>AB+ve:2,<br>O+ve:2,<br>A-ve:1</td>
+    <td>08-11-2023<br>7:42 am</td>
+    <td>Blood Bank</td>
+  </tr>
+  <tr>
+    <td>530048</td>
+    <td>Gayatri Vidya Parishad Institute Of Health Care And Medical Technology
+DNO:6-25, MARIDIVALLEY , MARIKAVALASA , MADHURAWADA, MADHURAWADA, Visakhapatnam, Andhra Pradesh
+Phone: 7675808026 ,Fax: -, Email: gvpbloodbank@gmail.com</td>
+    <td>private</td>
+    <td>Available:<br>A-ve:1,<br>B+ve:3</td>
+    <td>08-11-2023<br>8:15 am</td>
+    <td>Blood Bank</td>
+  </tr>
+  <tr>
+    <td>530045</td>
+    <td>M/S. Gitam Institute Of Medical Sciences Blood Centre
+Door No. 5-168, Ward No. 6, GITAM University, Rushikonda, Visakhapatnam, Visakhapatnam, Andhra Pradesh
+Phone: 0891 2524777, 9985556050 ,Fax: 891 2790222, Email: directorgims@gitam.edu</td>
+    <td>private</td>
+    <td>Available:<br>No blood Avilable</td>
+    <td>08-11-2023<br>7:02 am</td>
+    <td>Blood Bank</td>
+  </tr>
+  <tr>
+    <td>530002</td>
+    <td>The King George Hospital Blood Centre Visakhapatnam
+Jagadamba Junction, Visakhapatnam, , Visakhapatnam, Visakhapatnam, Andhra Pradesh
+Phone: 8688272552 ,Fax: -, Email: kgh_vsp@ap.nic.in</td>
+    <td>Govt</td>
+    <td>Available:<br>O-ve:1,<br>AB-ve:2</td>
+    <td>08-11-2023<br>8:42 am</td>
+    <td>Blood Bank</td>
+  </tr>
+  <tr>
+    <td>530002</td>
+    <td>Lions Club Of Visakhapatnam Blood Centre Trust
+D.No. 10-54-7, Lions Community Hall, Ram Nagar, Visakhapatnam, Visakhapatnam, Andhra Pradesh
+Phone: 6309552515 ,Fax: -, Email: lionsbloodbankvsp@gmail.com
+    </td>
+     <td>private</td>
+    <td>Available:<br>No blood Avilable</td>
+    <td>08-11-2023<br>8:02 am</td>
+    <td>Blood Bank</td>
+  </tr>
+  <tr>
+  <td>530002</td>
+  <td>Indian Red Cross Society Blood Centre Visakhapatnam
+D.No.14-35-4, Red Cross Buildings, Maharanipet, Visakhapatnam , Visakhapatnam, Visakhapatnam, Andhra Pradesh
+Phone: 9491880025 ,Fax: -, Email: secretaryvspredcross@gmail.com</td>
+   <td>private</td>
+    <td>Available:<br>B+Ve:5,<br>O+Ve:5,<br>AB+Ve:2,<br>A+Ve:3</td>
+    <td>08-11-2023<br>7:34 am</td>
+    <td>Blood Bank</td>
+  </tr>
+</table>
+</div>
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
+</script>
+<footer class="footer">
+        <div class="container footer__container">
+                <div class="footer__1">
+                    <a href="afterlogin.html" class="footer__logo"><h4>Vital Bonds</h4></a>
+                    <p>Welcome to Vital Bonds – Your Gateway to Saving Lives!</p>
+                </div>
+            
+            <div class="footer__2">
+                <h4>For Links</h4>
+                <li><a href="afterlogin.html">Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </div>
+    
+            <div class="footer__3">
+                <h4>Privacy</h4>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                
+            </div>
+    
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+91 xxxxxxxxxx</p>
+                    <p>VitalBonds@gmail.com</p>
+                </div>
+            
+    
+            <ul class="footer__socials">
+    
+                <li>
+                    <a href="#"><i class="uil uil-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="uil uil-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="uil uil-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="uil uil-linkedin"></i></a>
+                </li>
+            </ul>
+        </div>
+        
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; VitalBonds</small>
+        </div>
+    </footer>
+</body>
